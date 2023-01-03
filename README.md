@@ -7,7 +7,7 @@ compartilhamento de meus links em um ambiente central.
 
 #### Acesse o link para visualizar o site: <a href="https://jonas-dias.netlify.app/" target="_blank"> Meus Links &#x1F517;</a>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4b7be33e-6fab-4e08-ba40-6c48e0596a78/deploy-status)](https://app.netlify.com/sites/jonas-dias/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0cce5a6d-24a7-404b-b3ac-eb5783647486/deploy-status)](https://app.netlify.com/sites/jonas-dias/deploys)
 
 ### Tecnologias Utilizadas
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
