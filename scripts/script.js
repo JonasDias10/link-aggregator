@@ -1,4 +1,3 @@
-const themeLink = document.getElementById("theme-link");
 const btnTheme = document.querySelector(".button-switcher");
 const body = document.body;
 
