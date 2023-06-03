@@ -37,11 +37,11 @@ body {
 
 /*=======Light Mode Definitions=======*/
 body .cards,
-body .theme-switcher {
+body #theme-switcher {
     background: var(--dark-color);
 }
 
-body .picture-border {
+body #picture-border {
     border: 4px solid var(--dark-color);
 }
 
@@ -56,15 +56,15 @@ body.dark-theme {
 }
 
 body.dark-theme .cards,
-body.dark-theme .theme-switcher {
+body.dark-theme #theme-switcher {
     background: var(--light-color);
 }
 
-body.dark-theme .button-switcher {
+body.dark-theme #button-switcher {
     background: var(--dark-color);
 }
 
-body.dark-theme .picture-border {
+body.dark-theme #picture-border {
     border: 4px solid var(--light-color);
 }
 
@@ -73,7 +73,7 @@ body.dark-theme a {
 }
 
 /*=======Container Definitions=======*/
-.container {
+#container {
     width: 80rem;
     max-width: 38rem;
     margin: 0 auto;
@@ -81,7 +81,7 @@ body.dark-theme a {
 
 /*=======Header Definitions=======*/
 header,
-.theme-switcher {
+#theme-switcher {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,27 +91,28 @@ header {
     margin: 1.2rem 2rem;
 }
 
-.logo h1 {
+#logo h1 {
     line-height: 2.4rem;
     font-size: 2.6rem;
 }
 
-.logo span {
+#logo span {
+    display: block;
     padding-left: 2rem;
 }
 
-.theme-switcher {
+#theme-switcher {
     width: 7.4rem;
     height: 2.8rem;
     border-radius: 2rem;
     padding: 0.2rem 0.4rem;
 }
 
-.theme-switcher img {
+#theme-switcher img {
     margin: 0.4rem 0.6rem;
 }
 
-.button-switcher {
+#button-switcher {
     cursor: pointer;
     position: absolute;
     color: transparent;
@@ -122,16 +123,16 @@ header {
     transition: transform 0.5s;
 }
 
-.button-switcher {
+#button-switcher {
     transform: translate(0rem);
 }
 
-.button-switcher.dark-theme {
+#button-switcher.dark-theme {
     transform: translate(4.4rem);
 }
 
 /*=======Main Definitions=======*/
-.profile-picture, 
+#profile-picture, 
 .cards {
     display: flex;
     flex-direction: column;
@@ -139,17 +140,17 @@ header {
     align-items: center;
 }
 
-.profile-picture h1 {
+#profile-picture h1 {
     font-size: 2rem;
 }
 
-.picture-border {
+#picture-border {
     border-radius: 32%;
     width: 15.8rem;
     height: 15.8rem;
 }
 
-.picture-border img {
+#picture-border img {
     max-width: 15rem;
     border-radius: 30%;
 }
@@ -163,10 +164,10 @@ header {
 }
 
 .cards:hover {
-    transform: translateY(0.4rem);
+    transform: scale(0.98);
 }
 
 /*=======Footer Definitions=======*/
 footer {
-    margin-bottom: 1.8rem;
+    margin: 2rem 0;
 }
