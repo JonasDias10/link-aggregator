@@ -145,14 +145,14 @@ header {
 }
 
 #picture-border {
-    border-radius: 32%;
+    border-radius: 50%;
     width: 15.8rem;
     height: 15.8rem;
 }
 
 #picture-border img {
     max-width: 15rem;
-    border-radius: 30%;
+    border-radius: 50%;
 }
 
 .cards {
