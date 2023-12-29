@@ -132,16 +132,16 @@ header {
 }
 
 /*=======Main Definitions=======*/
+#profile-picture {
+    margin-bottom: 2rem;
+}
+
 #profile-picture, 
 .cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#profile-picture h1 {
-    font-size: 2rem;
 }
 
 #picture-border {
